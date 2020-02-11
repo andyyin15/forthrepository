@@ -1,0 +1,11 @@
+﻿生成启动时间为 2020/1/17 14:26:06。
+     1>项目“E:\vs\hello\hello\hello.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs\hello\Debug\hello.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\vs\hello\Debug\hello.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs\hello\Debug\hello.lib" /MACHINE:X86 Debug\hello.obj
+         Debug\stdafx.obj
+         hello.vcxproj -> E:\vs\hello\Debug\hello.exe
+     1>已完成生成项目“E:\vs\hello\hello\hello.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.35
