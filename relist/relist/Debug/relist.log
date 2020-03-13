@@ -1,0 +1,56 @@
+﻿生成启动时间为 2020/3/7 16:34:19。
+     1>项目“E:\vs\relist\relist\relist.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\relist.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt relist.cpp
+         relist.cpp
+     1>e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1120): error C2784: “unknown-type std::operator -(std::move_iterator<_RanIt> &,const std::move_iterator<_RanIt2> &)”: 未能从“const std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>”为“std::move_iterator<_RanIt> &”推导 模板 参数
+                 with
+                 [
+                     _Kty=int,
+                     _Ty=int
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2072): note: 参见“std::operator -”的声明
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1119): note: 编译类 模板 成员函数“std::reverse_iterator<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>> std::reverse_iterator<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>>::operator +(int) const”时
+                 with
+                 [
+                     _Kty=int,
+                     _Ty=int
+                 ]
+         e:\vs\relist\relist\relist.cpp(23): note: 参见对正在编译的函数 模板 实例化“std::reverse_iterator<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>> std::reverse_iterator<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>>::operator +(int) const”的引用
+                 with
+                 [
+                     _Kty=int,
+                     _Ty=int
+                 ]
+         e:\vs\relist\relist\relist.cpp(19): note: 参见对正在编译的类 模板 实例化“std::reverse_iterator<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>>”的引用
+                 with
+                 [
+                     _Kty=int,
+                     _Ty=int
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2072): note: 参见“std::operator -”的声明
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2072): note: 参见“std::operator -”的声明
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2072): note: 参见“std::operator -”的声明
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2072): note: 参见“std::operator -”的声明
+     1>e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1120): error C2784: “unknown-type std::operator -(const std::reverse_iterator<_RanIt> &,const std::reverse_iterator<_RanIt2> &)”: 未能从“const std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>”为“const std::reverse_iterator<_RanIt> &”推导 模板 参数
+                 with
+                 [
+                     _Kty=int,
+                     _Ty=int
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1160): note: 参见“std::operator -”的声明
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1160): note: 参见“std::operator -”的声明
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1160): note: 参见“std::operator -”的声明
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1160): note: 参见“std::operator -”的声明
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1160): note: 参见“std::operator -”的声明
+     1>e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1120): error C2676: 二进制“-”:“const std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>”不定义该运算符或到预定义运算符可接收的类型的转换
+                 with
+                 [
+                     _Kty=int,
+                     _Ty=int
+                 ]
+     1>已完成生成项目“E:\vs\relist\relist\relist.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.36

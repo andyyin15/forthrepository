@@ -1,0 +1,40 @@
+﻿生成启动时间为 2020/3/10 16:08:30。
+     1>项目“E:\vs\StlTest\StlTest\StlTest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\StlTest.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt StlTest.cpp
+         StlTest.cpp
+     1>e:\program files (x86)\microsoft visual studio 14.0\vc\include\algorithm(1015): error C2064: 项不会计算为接受 1 个参数的函数
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\algorithm(1015): note: 类不会将“operator()”或用户定义的转换运算符定义到指向函数的指针或指向函数的引用(它们接受适当数量的参数)
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\algorithm(1051): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Transform<_InIt,int*,_Fn1>(_InIt,_InIt,_OutIt,_Fn1)”的引用
+                 with
+                 [
+                     _OutIt=int *,
+                     _InIt=int *,
+                     _Fn1=main::<lambda_eb6577e9dd93861f89d93dffcd8e99d4>
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\algorithm(1063): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Transform1<_InIt,_OutIt,_Fn1>(_InIt,_InIt,_OutIt,_Fn1,std::random_access_iterator_tag,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     _OutIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+                     _InIt=int *,
+                     _Fn1=main::<lambda_eb6577e9dd93861f89d93dffcd8e99d4>
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\algorithm(1087): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Transform1<int*,_OutIt,_Fn1>(_InIt,_InIt,_OutIt,_Fn1,std::true_type)”的引用
+                 with
+                 [
+                     _OutIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+                     _Fn1=main::<lambda_eb6577e9dd93861f89d93dffcd8e99d4>,
+                     _InIt=int *
+                 ]
+         e:\vs\stltest\stltest\stltest.cpp(14): note: 参见对正在编译的函数 模板 实例化“_OutIt std::transform<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,main::<lambda_eb6577e9dd93861f89d93dffcd8e99d4>>(_InIt,_InIt,_OutIt,_Fn1)”的引用
+                 with
+                 [
+                     _OutIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+                     _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+                     _Fn1=main::<lambda_eb6577e9dd93861f89d93dffcd8e99d4>
+                 ]
+     1>已完成生成项目“E:\vs\StlTest\StlTest\StlTest.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.50

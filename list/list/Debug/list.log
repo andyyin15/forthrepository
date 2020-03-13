@@ -1,0 +1,111 @@
+﻿生成启动时间为 2020/2/14 20:32:52。
+     1>项目“E:\vs\list\list\list.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\list.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt list.cpp
+         list.cpp
+     1>e:\vs\list\list\list.cpp(14): warning C4101: “arr”: 未引用的局部变量
+     1>e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2148): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2169): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_impl<double*,_OutIt>(_InIt,_InIt,_OutIt,std::_Nonscalar_ptr_iterator_tag)”的引用
+                 with
+                 [
+                     _OutIt=std::ostream_iterator<int,char,std::char_traits<char>>,
+                     _InIt=double *
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2190): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_impl<_InIt,_OutIt>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=std::ostream_iterator<int,char,std::char_traits<char>>,
+                     _InIt=double *
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2210): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_impl<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::input_iterator_tag,std::_Mutable_iterator_tag)”的引用
+                 with
+                 [
+                     _OutIt=std::ostream_iterator<int,char,std::char_traits<char>>,
+                     _InIt=double *
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2230): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_impl<double*,_OutIt>(_InIt,_InIt,_OutIt,std::true_type)”的引用
+                 with
+                 [
+                     _OutIt=std::ostream_iterator<int,char,std::char_traits<char>>,
+                     _InIt=double *
+                 ]
+         e:\vs\list\list\list.cpp(22): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,std::ostream_iterator<int,char,std::char_traits<char>>>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=std::ostream_iterator<int,char,std::char_traits<char>>,
+                     _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+                 ]
+     1>e:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(657): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(775): note: 参见对正在编译的函数 模板 实例化“void std::allocator<_Other>::construct<_Objty,double&>(_Objty *,double &)”的引用
+                 with
+                 [
+                     _Other=std::_List_node<int,void *>,
+                     _Objty=int
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(775): note: 参见对正在编译的函数 模板 实例化“void std::allocator<_Other>::construct<_Objty,double&>(_Objty *,double &)”的引用
+                 with
+                 [
+                     _Other=std::_List_node<int,void *>,
+                     _Objty=int
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(920): note: 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::construct<_Ty,double&>(std::allocator<_Other> &,_Objty *,double &)”的引用
+                 with
+                 [
+                     _Alloc=std::allocator<std::_List_node<int,void *>>,
+                     _Ty=int,
+                     _Other=std::_List_node<int,void *>,
+                     _Objty=int
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(920): note: 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::construct<_Ty,double&>(std::allocator<_Other> &,_Objty *,double &)”的引用
+                 with
+                 [
+                     _Alloc=std::allocator<std::_List_node<int,void *>>,
+                     _Ty=int,
+                     _Other=std::_List_node<int,void *>,
+                     _Objty=int
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\list(1323): note: 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,double&>(_Ty *,double &)”的引用
+                 with
+                 [
+                     _Other=std::_List_node<int,void *>,
+                     _Ty=int
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\list(1323): note: 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,double&>(_Ty *,double &)”的引用
+                 with
+                 [
+                     _Other=std::_List_node<int,void *>,
+                     _Ty=int
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\list(1305): note: 参见对正在编译的函数 模板 实例化“void std::list<int,std::allocator<_Ty>>::_Reusenode<double&>(std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,_TArg)”的引用
+                 with
+                 [
+                     _Ty=int,
+                     _TArg=double &
+                 ]
+         e:\program files (x86)\microsoft visual studio 14.0\vc\include\list(1305): note: 参见对正在编译的函数 模板 实例化“void std::list<int,std::allocator<_Ty>>::_Reusenode<double&>(std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,_TArg)”的引用
+                 with
+                 [
+                     _Ty=int,
+                     _TArg=double &
+                 ]
+         e:\vs\list\list\list.cpp(18): note: 参见对正在编译的函数 模板 实例化“void std::list<int,std::allocator<_Ty>>::assign<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>>(_Iter,_Iter)”的引用
+                 with
+                 [
+                     _Ty=int,
+                     _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+                 ]
+         e:\vs\list\list\list.cpp(18): note: 参见对正在编译的函数 模板 实例化“void std::list<int,std::allocator<_Ty>>::assign<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>>(_Iter,_Iter)”的引用
+                 with
+                 [
+                     _Ty=int,
+                     _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+                 ]
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs\list\Debug\list.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\vs\list\Debug\list.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs\list\Debug\list.lib" /MACHINE:X86 Debug\list.obj
+         Debug\stdafx.obj
+         list.vcxproj -> E:\vs\list\Debug\list.exe
+     1>已完成生成项目“E:\vs\list\list\list.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.84
